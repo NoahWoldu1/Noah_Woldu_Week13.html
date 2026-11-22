@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 13 - AJAX and APIs</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f8;
+            text-align: center;
+            margin: 0;
+            padding: 40px;
+        }
+
+        h1 {
+            color: #243b53;
+        }
+
+        p {
+            color: #555;
+        }
+
+        button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        #output {
+            background-color: white;
+            max-width: 600px;
+            margin: 25px auto;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: left;
+        }
+
+        li {
+            padding: 8px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .error {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Dog Breed Information</h1>
+
+    <p>Click the button below to load dog breeds
+       using the Fetch API.</p>
+
+    <button id="btnLoad">Load Data</button>
+
+    <div id="output">
+        <p>Dog breeds will appear here.</p>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
